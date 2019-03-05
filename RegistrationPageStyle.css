@@ -12,12 +12,15 @@
 }
 .ElementStyle{
     float: left;
-    margin-top: 0px;
+    width:200px;
+    margin-top: -2px;
     margin-left: 0px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
-    opacity: 10%;
+    font-size: 20px;
+    text-align: center;
     padding: 10px;
     border-right: 1px solid white;
+    color:gray;
+
 
 }
