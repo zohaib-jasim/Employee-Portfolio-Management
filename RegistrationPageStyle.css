@@ -1,0 +1,23 @@
+#TaskBar{
+    height: 40px;
+    background-color: lightblue;
+      
+}
+.HomeImage{
+    width: 30px;
+    margin-top: 1px;
+    border-right:1px solid white;
+    padding: 4px;
+    float: left;
+}
+.ElementStyle{
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    opacity: 10%;
+    padding: 10px;
+    border-right: 1px solid white;
+
+}
