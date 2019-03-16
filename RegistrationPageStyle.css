@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: lightblue;
 }
 #TableContainer{
     text-align: center;
@@ -13,5 +13,10 @@ table{
     height: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
-    font-weight: lighter;  
+    font-weight: lighter; 
+} 
+.Button{
+    margin: 10px 2px;
+    border: 2px solid gray;
+    border-radius: 30%;
 }
