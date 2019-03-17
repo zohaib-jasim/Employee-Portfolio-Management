@@ -1,0 +1,18 @@
+
+#EmpName{
+    text-align: center
+}
+#EmpImage{
+    display: inline-block;
+    height: 150px;
+    
+
+    
+}
+#nameText{
+    position: relatimve;
+    margin-top: 2%;
+    margin-left : 1%;
+    
+ 
+}
