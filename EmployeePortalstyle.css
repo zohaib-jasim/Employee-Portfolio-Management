@@ -30,7 +30,14 @@
 
 }
 #WelcomeNote{
-    margin: 5% auto;
+    margin: 2% auto;
     font-size: 28px;
 
+}
+#EmployeeName{
+    font-size: 18px;
+}
+
+#TaskList{
+    align-content: left;
 }

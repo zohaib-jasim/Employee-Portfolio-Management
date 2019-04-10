@@ -5,24 +5,48 @@
             Artistic Milliners | Employee Portal Login  
         </title>
         <link rel="stylesheet" type="text/css" href="EmployeePortalStyle.css">
+        <link rel="stylesheet" type="text/css" href="jquery-ui.css">
 
         
 
     </head>
     <body>
-        <div id="TaskBar">
-            <img class="HomeImage" src="HomeTab.png">
-            <p class="ElementStyle">Dashboard</p>
-            <p class="ElementStyle">Attendance</p>
-            <p class="ElementStyle">Leave Request</p>
-            <p class="ElementStyle">Task List</p>
-            <p class="ElementStyle">Documents</p>
+        <div>
+            <div id="TaskBar">
+                <img class="HomeImage" src="HomeTab.png">
+                <p class="ElementStyle">Dashboard</p>
+                <p class="ElementStyle">Attendance</p>
+                <p class="ElementStyle">Leave Request</p>
+                <p class="ElementStyle">Task List</p>
+                <p class="ElementStyle">Documents</p>
+            </div>
+            <div id="WelcomeTab">
+                <p id="WelcomeNote">Welcome to Artistic Milliners</p>
+                <label id="EmployeeName">Syed Zohaib Ali Naqvi</label>
+            </div>
+            <div id="TaskContainer">
+                <h1 id="RunningTask">Running tasks</h1>
+                <ol id="TaskList">
+                    <li>Warehouse Management System</li>
+                    <li>Employee Benchmarking</li>
+                    <li>Power Pallet movers</li>
+                    <li>Egg Crate feasibility</li>
+                </ol>
+
+            </div>
         </div>
-        <div id="WelcomeTab">
-            <p id="WelcomeNote">Welcome to Artistic Milliners</p>
+
+        <script type="text/javascript" src="jquery-ui.js"></script>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script>
+            $("#TaskContainer").click(function(){
+                $("#TaskList").progressbar({
+                    value: 37
+                });
+            })
 
 
-        </div>
+        </script>
 
     </body>
 </html>
