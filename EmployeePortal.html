@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+
+
+
         <title>
             Artistic Milliners | Employee Portal Login  
         </title>
@@ -12,35 +26,144 @@
     </head>
     <body>
         <div>
-            <div id="TaskBar">
-                <img class="HomeImage" src="HomeTab.png">
-                <p class="ElementStyle">Dashboard</p>
-                <p class="ElementStyle">Attendance</p>
-                <p class="ElementStyle">Leave Request</p>
-                <p class="ElementStyle">Task List</p>
-                <p class="ElementStyle">Documents</p>
-            </div>
-            <div id="WelcomeTab">
-                <p id="WelcomeNote">Welcome to Artistic Milliners</p>
-                <label id="EmployeeName">Syed Zohaib Ali Naqvi</label>
+            <div id="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+                            <a class="navbar-brand" href="#">Artistic Milliners</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                            aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                          
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Dashboard</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Leaves
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Apply for leave</a>
+                                    <a class="dropdown-item" href="#">Attandance</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Remaining leaves</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Assign Task</a>
+                                </li>
+                              </ul>
+                              <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                              </form>
+                            </div>
+                          </nav>
             </div>
             <div id="TaskContainer">
-                <h1 id="RunningTask">Running tasks</h1>
-                <ol id="TaskList">
-                    <li>Warehouse Management System</li>
-                    <li>Employee Benchmarking</li>
-                    <li>Power Pallet movers</li>
-                    <li>Egg Crate feasibility</li>
-                </ol>
+                <div class="container-flex bg-light">
+                    <h1 class="text-muted text-left bg" >Running tasks</h1>
+                </div>
+                <div class="card-columns">
+                        <div class="card bg-primary text-white">
+                            <img class="card-img-top" src="Warehouse.JPG">
+                          <div class="card-body">
+                            <h5 class="card-title">Warehouse Project</h5>
+                            <p class="card-text"><ol>
+                                <li>Complete the layout</li>
+                                <li>Decide MHE</li>
+                                <li>Design WMS</li>
+                            </ol></p>
+                            <div class="progress" style="margin-bottom:10px">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 10%" 
+                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <button id="TaskPlanning" class="btn btn-info">Plan your Task</button>
+                          </div>
+                        </div>
+                        <div class="card p-3">
+                          <blockquote class="blockquote mb-0 card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            <footer class="blockquote-footer">
+                              <small class="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                              </small>
+                            </footer>
+                          </blockquote>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="..." alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card bg-primary text-white text-center p-3">
+                          <blockquote class="blockquote mb-0">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                            <footer class="blockquote-footer">
+                              <small>
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                              </small>
+                            </footer>
+                          </blockquote>
+                        </div>
+                        <div class="card text-center">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img" src="..." alt="Card image">
+                        </div>
+                        <div class="card p-3 text-right">
+                          <blockquote class="blockquote mb-0">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            <footer class="blockquote-footer">
+                              <small class="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                              </small>
+                            </footer>
+                          </blockquote>
+                        </div>
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                      </div>
 
             </div>
         </div>
 
+
+         <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+    crossorigin="anonymous"></script>
+
         <script type="text/javascript" src="jquery-ui.js"></script>
-        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript " src="jquery.js"></script>
         <script>
             $("#TaskContainer").click(function(){
-                $("#TaskList").progressbar({
+                $("#TaskList").progresbar({
                     value: 37
                 });
             })
