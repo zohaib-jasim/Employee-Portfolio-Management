@@ -58,12 +58,16 @@
                       <div class="container">
                           
                       <form >
-                          <div class="form-group">
+                          <div class="form-group"  style="margin-top:20px;">
                               <label for="AssignTo">Employee</label>
-                                <select id="AssignTo">
+                                <select id="AssignTo" style="margin-right:25px;">
                                   <option>Qazi Shoaib</option>
                                   <option>Muhammad Siddique</option>
                                   <option>Muhammad Asim</option>
+                                </select>
+                                <label for="designation">Designation</label>
+                                <select id="designation" style="width:200px;">
+                                  <option></option>
                                 </select>
         
                           </div>
@@ -73,13 +77,13 @@
                           </div>
                           <div class="form-group">
                             <label for="Taskdetails">Enter task details here</label>
-                            <textarea class="form-control" id="Taskdetails" rows="3"></textarea>
+                            <textarea class="form-control" id="Taskdetails" rows="3" placeholder="Enter details of the task here"></textarea>
                           </div>
                           <div>
                             <p><label for="deadline" style="margin-bottom:0px;">Deadline</label></p>
                             <input type="datetime-local" id="deadline" style="margin-bottom:5px;">
                             </div>
-                         <button class="btn btn-success">Assign Task</button>
+                         <button class="btn btn-success" style="margin-top:25px;">Assign Task</button>
                         </form>
                       </div>
         </div>    
