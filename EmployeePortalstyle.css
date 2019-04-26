@@ -34,18 +34,18 @@
     font-size: 28px;
 
 }
-<<<<<<< HEAD
+
 #circle{
     background-color: green;    
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-=======
+    border-radius: 50%;}
+
 #EmployeeName{
     font-size: 18px;
 }
 
 #TaskList{
     align-content: left;
->>>>>>> 54e5e4d067ee0513afd4aca2d1a7ef67e4358afd
+
 }
